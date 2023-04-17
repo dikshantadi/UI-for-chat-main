@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           ],
           centerTitle: true,
           backgroundColor: Theme.of(context).primaryColor,
-          title: const Text("MESSAGES",
+          title: const Text("Messages",
               style: TextStyle(
                 fontSize: 27,
                 fontWeight: FontWeight.bold,
