@@ -2,10 +2,12 @@
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:flutter/physics.dart';
+import 'package:flutter_application_15858/Pages/Group.dart';
 import 'package:flutter_application_15858/login.dart';
 import 'Pages/Search_page.dart';
 // ignore: duplicate_import
 import 'Pages/ProfilePage.dart';
+import 'dart:io';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -65,12 +67,14 @@ class _HomePageState extends State<HomePage> {
               const Divider(
                 height: 2,
               ),
-              const ListTile(
+              ListTile(
+                onTap: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const GroupPage())),
                 selected: true,
                 contentPadding:
-                    EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                 leading: Icon(Icons.group),
-                title: Text(
+                title: const Text(
                   "Groups",
                   style: TextStyle(color: Colors.black),
                 ),
