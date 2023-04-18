@@ -37,8 +37,8 @@ class _StartPageState extends State<StartPage> {
               color: Colors.white,
               child: Center(
                 child: Image.asset(
-                  'lib/Image/f.png',
-                  width: 200,
+                  'lib/Image/chat.jpg',
+                  width: 300,
                 ),
               ),
             ),
@@ -61,7 +61,7 @@ class _StartPageState extends State<StartPage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.all(30.0),
             child: SizedBox(
               width: 700,
               height: 60,
