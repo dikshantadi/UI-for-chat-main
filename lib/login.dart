@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_15858/Homepage.dart';
-import 'components/my_button.dart';
+import 'Components/my_button.dart';
 import 'Components/my_textfield.dart';
 import 'Components/square_tile.dart';
 
