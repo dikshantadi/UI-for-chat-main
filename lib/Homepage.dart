@@ -107,6 +107,50 @@ class _HomePageState extends State<HomePage> {
               ),
             ]),
       ),
+      body: ListView(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: const [
+              SizedBox(
+                width: 20,
+                height: 20,
+              ),
+              Icon(
+                Icons.account_circle,
+                size: 52,
+              ),
+              Text(
+                'FriendName_1',
+                style: TextStyle(
+                  color: Color.fromARGB(255, 9, 9, 9),
+                  fontSize: 16,
+                ),
+              ),
+            ],
+          ),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: const [
+              SizedBox(
+                width: 20,
+                height: 20,
+              ),
+              Icon(
+                Icons.account_circle,
+                size: 52,
+              ),
+              Text(
+                'FriendName_2',
+                style: TextStyle(
+                  color: Color.fromARGB(255, 9, 9, 9),
+                  fontSize: 16,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
